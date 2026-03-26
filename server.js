@@ -14,7 +14,7 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 const SHOW_REASONING = true; 
-const ENABLE_THINKING_MODE = true; 
+const ENABLE_THINKING_MODE = false; 
 
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'deepseek-ai/deepseek-v3.1-terminus',

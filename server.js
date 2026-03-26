@@ -18,13 +18,13 @@ const NIM_API_KEY = process.env.NIM_API_KEY;
 const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
 
 // 🔥 THINKING MODE TOGGLE - Enables thinking for specific models that support it
-const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwargs thinking parameter
+const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs thinking parameter
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'deepseek-ai/deepseek-v3.1-terminus',
   'gpt-4': 'deepseek-ai/deepseek-v3.2',
-  'gpt-4-turbo': 'deepseek-ai/deepseek-v3.2',
+  'gpt-4-turbo': 'moonshotai/kimi-k2.5',
   'gpt-4o': 'deepseek-ai/deepseek-v3.1',
   'claude-3-opus': 'z-ai/glm5',
   'claude-3-sonnet': 'z-ai/glm4.7',
